@@ -1,3 +1,5 @@
+import { ProductsPageComponent } from './_pages/products-page/products-page.component';
+import { ProductListComponent } from './_pages/products-page/product-list/product-list.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -16,7 +18,9 @@ import { ProductCardComponent } from './_pages/products-page/product-list/produc
     NavbarComponent,
     NotFoundComponent,
     HomePageComponent,
-    ProductCardComponent
+    ProductListComponent,
+    ProductCardComponent,
+    ProductsPageComponent
   ],
   imports: [
     BrowserModule,

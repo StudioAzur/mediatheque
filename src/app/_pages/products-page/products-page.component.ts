@@ -56,7 +56,9 @@ export class ProductsPageComponent implements OnInit {
     }
   ]
 
-  constructor() { }
+  constructor() {
+    
+   }
 
   ngOnInit(): void {
   }
