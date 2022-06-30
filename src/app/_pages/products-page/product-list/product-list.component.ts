@@ -6,8 +6,12 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./product-list.component.scss'],
 })
 export class ProductListComponent implements OnInit {
+
   @Input()
-  datas!: any[];
+  films!:any[];
+  @Input()
+  albums!:any[];
+
 
   constructor() {
     

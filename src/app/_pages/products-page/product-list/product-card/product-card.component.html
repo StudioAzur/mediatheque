@@ -1,18 +1,22 @@
 <div class="col s12 m6">
   <div class="card">
     <div class="card-image">
-      <img [src]="data.img" />
-      <span class="card-title">Card Title</span>
+      <img *ngIf="data.img != ''" [src]="data.img" />
+      <img
+        *ngIf="data.img == ''"
+        src="https://miro.medium.com/max/450/1*sNnuIM29rLqCRUgKwyvYuA.jpeg"
+      />
+      <span class="card-title">{{ data.nom }}</span>
       <a class="btn-floating halfway-fab waves-effect waves-light red"
         ><i class="material-icons">add</i></a
       >
     </div>
-    <div class="card-content">
-      <p>
-        I am a very simple card. I am good at containing small bits of
-        information. I am convenient because I require little markup to use
-        effectively.
-      </p>
+    <div class="card-content" *ngIf="data.real">
+      <p>{{data.synopsis | slice:0:120}}...</p>
+    </div>
+    <div class="card-content" *ngIf="data.artiste">
+      <p>{{data.artiste}}</p>
+      <p>{{data.annee}}</p>
     </div>
   </div>
 </div>
