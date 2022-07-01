@@ -1,6 +1,9 @@
-<div *ngFor="let dataFilm of films" class="row">
-   <app-product-card [data]="dataFilm"></app-product-card> 
-</div>
-<div *ngFor="let dataAlbum of albums" class="row">
-    <app-product-card [data]="dataAlbum"></app-product-card> 
- </div>
+<div class="row">
+    <div *ngFor="let dataFilm of films" class="col s4">
+        <app-product-card [data]="dataFilm"></app-product-card>
+      </div>
+      <div *ngFor="let dataAlbum of albums" class="col s4">
+        <app-product-card [data]="dataAlbum"></app-product-card>
+      </div>
+  </div>
+  
