@@ -1,8 +1,5 @@
 # Mediathèque
 
-
-
-
 Mediya It est un projet de médiathèque qui permet l'emprunt d'albums et de films.
 
 ## About the project
