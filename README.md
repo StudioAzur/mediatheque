@@ -1,27 +1,51 @@
-# Mediatheque
+# Mediathèque
+_(juste en dessous des badges sympatiques à placer)_
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
+[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)  [![forthebadge](http://forthebadge.com/images/badges/powered-by-electricity.svg)](http://forthebadge.com)
 
-## Development server
+Mediya It est un projet de médiathèque qui permet l'emprunt d'albums et de films.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## About the project
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+### Getting start
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+**1.** Clone the repo
+```
+git clone https://github.com/StudioAzur/mediatheque.git
 
-## Running unit tests
+### Installation
+```
+**2.** Install npm packages
+```
+npm install
+```
+**3.** Start server
+```
+ng serve -o
+```.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Démarrage
 
-## Further help
+Dites comment faire pour lancer votre projet
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Built with
+
+Angular (mediatheque\src\assets\images\angular.png)
+
+Programs/Software/Ressources
+
+
+* [Materialize.css](http://materializecss.com) - Framework CSS (front-end)
+* [Visual Code Studio](https://code.visualstudio.com/) - IDE
+
+
+## Author(s)
+
+* **Anthony Labesse** _alias_ [@Wavelopper](https://github.com/StudioAzur)
+
+
+
