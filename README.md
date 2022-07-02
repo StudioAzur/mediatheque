@@ -1,7 +1,7 @@
 # Mediathèque
-_(juste en dessous des badges sympatiques à placer)_
 
-[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)  [![forthebadge](http://forthebadge.com/images/badges/powered-by-electricity.svg)](http://forthebadge.com)
+
+
 
 Mediya It est un projet de médiathèque qui permet l'emprunt d'albums et de films.
 
@@ -9,32 +9,31 @@ Mediya It est un projet de médiathèque qui permet l'emprunt d'albums et de fil
 
 
 
-### Getting start
+### Getting start 🔱
 
 **1.** Clone the repo
 ```
 git clone https://github.com/StudioAzur/mediatheque.git
-
-### Installation
 ```
+
+### Installation ⚓
+
 **2.** Install npm packages
 ```
 npm install
 ```
-**3.** Start server
+
+## Start
+
+**3.** Start server ✅
 ```
 ng serve -o
-```.
+```
 
 
+[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 
-## Démarrage
-
-Dites comment faire pour lancer votre projet
-
-## Built with
-
-Angular (mediatheque\src\assets\images\angular.png)
+Angular
 
 Programs/Software/Ressources
 
